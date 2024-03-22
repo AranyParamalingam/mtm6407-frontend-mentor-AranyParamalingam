@@ -1,0 +1,159 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Inter;
+}
+
+.wrapper {
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+p {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.logo-w {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.main-section {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.main-img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.main-section p {
+    margin-bottom: 35px;
+}
+
+.read-more-btn {
+    font-family: Inter;
+    font-weight: 400;
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    text-decoration: none;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    letter-spacing: 3px;
+}
+
+.new-box {
+    background-color: hsl(240, 100%, 5%);
+    max-width: 100%;
+    margin: 10px; /* Add margin around the box and center it horizontally */
+    margin-right: 10px;
+    padding: 20px;
+    align-items: center;
+}
+
+.new-box hr {
+    color: white;
+}
+
+.new-box h2 {
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 10px;
+}
+
+.new-box h3 {
+    color: white;
+}
+
+.new-box p {
+    color: hsl(233, 8%, 79%);
+}
+
+.num-section h2{
+    color: hsl(233, 8%, 79%);
+}
+
+.num-section h3{
+    color: hsl(240, 100%, 5%);
+}
+
+
+.num-section p{
+    color: hsl(236, 13%, 42%);
+}
+
+.num-section {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    display: grid;
+        /*5 columns, 5 rows*/
+        grid-template-columns: repeat(5, 1fr, 3fr, 3fr, 3fr, 1fr);
+        grid-template-rows: repeat(5, 1fr, 3fr, 3fr, 3fr, 1fr);
+        justify-content:left;
+        row-gap: 15px;
+        column-gap: 10px;
+}
+
+.box {
+    display:flex;
+        flex-direction: column;
+}
+
+.img-one {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-one {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+}
+
+.img-two {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-two {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+
+.img-three {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-three {
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+}
+
+
